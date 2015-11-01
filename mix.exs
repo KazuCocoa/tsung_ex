@@ -4,7 +4,7 @@ defmodule TsungEx.Mixfile do
   def project do
     [app: :tsung_ex,
      version: "0.0.1",
-     elixir: "~> 1.1",
+     elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -27,6 +27,8 @@ defmodule TsungEx.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:tsung, github: "processone/tsung", tag: "v1.6.0", app: false, compile: "./configure && make && make install"}
+    ]
   end
 end

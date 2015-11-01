@@ -1,6 +1,8 @@
 # TsungEx
 
-**TODO: Add description**
+- https://github.com/processone/tsung
+- http://tsung.erlang-projects.org/user_manual/
+
 
 ## Installation
 
@@ -12,8 +14,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [{:tsung_ex, "~> 0.0.1"}]
         end
 
-  2. Ensure tsung_ex is started before your application:
-
-        def application do
-          [applications: [:tsung_ex]]
-        end

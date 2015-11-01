@@ -1,0 +1,1 @@
+%{"tsung": {:git, "https://github.com/processone/tsung.git", "eb10c4ec3f87c8c3d4f78043ddf5dc33ac845200", [tag: "v1.6.0"]}}
